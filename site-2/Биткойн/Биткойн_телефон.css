@@ -1,0 +1,71 @@
+@media screen and (max-width: 767px) {
+    * {
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .ETH {
+        margin-right: 1%;
+    }
+
+    header a {
+        margin: auto;
+        color: black;
+        text-decoration: none;
+        padding: 7px;
+        transition: all 0.5s ease;
+        display: inline-block;
+    }
+
+    header a:hover {
+        color: white;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    .open {
+        color: white;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    .navi {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin: 10px auto 0px auto;
+        width: 90%;
+    }
+
+    .navi a {
+        margin-top: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: 0px;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .zaglavie {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+}
