@@ -1,0 +1,126 @@
+/* General styles */
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 3%;
+}
+
+.ETH {
+    margin-right: 1%;
+}
+
+a {
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-decoration: none;
+    padding: 7px;
+    transition: 0.5s;
+}
+
+a:hover {
+    transition: all 0.2s ease-in-out;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.open {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.navi {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    color: rgb(46, 46, 46);
+    font-weight: bold;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.navi-hidden {
+    transform: translateY(-100%);
+}
+
+.date {
+    font-size: small;
+    opacity: 30%;
+    color: black;
+}
+
+.Novini {
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 60%;
+}
+
+.column {
+    width: 25%;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card:hover, .card1:hover, .card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.card button, .card1 button, .card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+h1 {
+    color: black;
+}
+
+.card, .card1, .card2 {
+    height: auto;
+    color: rgb(77, 77, 77);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.87);
+}
+
+/* Media Queries for Phones */
+@media screen and (max-width: 767px) {
+    * {
+        font-size: 14px;
+    }
+    .navi {
+        width: 90%;
+    }
+    .Novini {
+        width: 90%;
+    }
+    .column {
+        width: 30%;
+    }
+    .card, .card1, .card2 {
+        width: 100%;
+    }
+}
