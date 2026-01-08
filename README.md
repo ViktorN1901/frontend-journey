@@ -9,7 +9,7 @@ Portfolio: Live demo: https://viktorn1901.github.io/frontend-journey/
 First HTML & CSS project, created while I was in 11th grade.
 Focus: basic structure, static pages.
 Live demo:  
-https://viktorn1901.github.io/frontend-journey/site-1/
+https://viktorn1901.github.io/frontend-journey/site-1/Главна страница/Index.html
 
 ---
 
@@ -17,7 +17,7 @@ https://viktorn1901.github.io/frontend-journey/site-1/
 University project with multiple pages and improved layout.
 Focus: better structure, responsive basics.
 Live demo:  
-https://viktorn1901.github.io/frontend-journey/site-2/
+https://viktorn1901.github.io/frontend-journey/site-2/Биткойн/Биткойн.html
 
 ---
 
