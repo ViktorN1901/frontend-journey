@@ -1,7 +1,7 @@
 # Frontend Journey
 
 This repository contains my frontend learning progress over the years.
-Portfolio: Live demo: https://viktorn1901.github.io/frontend-journey/
+Portfolio: https://viktorn1901.github.io/frontend-journey/
 
 ## Projects
 
